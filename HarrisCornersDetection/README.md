@@ -9,6 +9,6 @@
 3. Compute products of the derivatives  $I_{x^2}(x,y) = I_{x}(x,y)\times I_{x}(x,y)$ , $I_{xy}(x,y) = I_{x}(x,y)\times I_{y}(x,y)$ , $I_{y^2}(x,y) = I_{y}(x,y)\times I_{y}(x,y)$.
 
 4. Filtering the product with the Gaussian filter. 
-5. Define at each pixel $(x,y)$ the matrix, ${\displaystyle M(x,y) = {\underset {(x,y)\in W}{\sum }} 
+5. Define at each pixel $(x,y)$ the matrix, $${\displaystyle M(x,y) = {\underset {(x,y)\in W}{\sum }} 
 6. Compute the response of the detector at each pixel. $$R(i,j)=\mathtt{det}(M)-K\cdot[\mathtt{trace}(M)]^2$$ $$K = 0.06$$ 
 7. Threshold on value of R and perform non-maxima suppression.
