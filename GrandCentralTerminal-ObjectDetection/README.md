@@ -4,7 +4,7 @@ Submitted by: Shay Malkin and Artem Zinenko
 
 Project video: Grand Central Station
 
-Project objectives :
+### Project objectives :
 
 ● To track hundreds of people walking around the station.
 
@@ -13,8 +13,8 @@ them with different colors.
 
 ● To draw the people’s paths.
 ● To display a heat map of all the different paths in real time
-The video shows hundreds of people walking through a busy central station.
 
+The video shows hundreds of people walking through a busy central station.
 With computer vision techniques we are able to track many individual people at the
 same time as they walk around the station.
 In the first frame of the video, we find key points to track using the Shi-Tomasi
@@ -32,7 +32,7 @@ have passed in a brighter shade and the less frequently passed ones in darker
 shades. Then we simply apply a color map and the result is a heat map of all the
 paths.
 
-The main problems we had with the project are:
+### The main problems we had with the project are:
 
 ● The ability to mark each person with only one point.
 Often, the algorithm finds various points on the same person, resulting in a
@@ -49,4 +49,3 @@ the tracking point jumps from one person to another.
 This is a major issue in tracking projects, though, there are ways around it.
 These methods involve techniques way beyond the scope of this project.
 LSTM neural networks, for example..
-.
