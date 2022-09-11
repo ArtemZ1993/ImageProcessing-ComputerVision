@@ -1,4 +1,4 @@
-## Grand Central Terminal - ObjectDetection
+## Grand Central Terminal - Object Detection
 
 Submitted by: Shay Malkin and Artem Zinenko 
 
