@@ -10,6 +10,8 @@
 
 4. Filtering the product with the Gaussian filter. 
 5. Define at each pixel 
+
+
 ![image](https://user-images.githubusercontent.com/70099875/189539017-379073c7-ad68-4381-b2f5-f0a17fd5c46b.png)
 
 
