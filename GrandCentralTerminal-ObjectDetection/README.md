@@ -5,12 +5,16 @@ Submitted by: Shay Malkin and Artem Zinenko
 Project video: Grand Central Station
 
 Project objectives :
+
 ● To track hundreds of people walking around the station.
+
 ● To track people entering the station from different entrances and represent
 them with different colors.
+
 ● To draw the people’s paths.
 ● To display a heat map of all the different paths in real time
 The video shows hundreds of people walking through a busy central station.
+
 With computer vision techniques we are able to track many individual people at the
 same time as they walk around the station.
 In the first frame of the video, we find key points to track using the Shi-Tomasi
@@ -27,13 +31,16 @@ smooth it out. The result is a gray scale image that shows areas where many peop
 have passed in a brighter shade and the less frequently passed ones in darker
 shades. Then we simply apply a color map and the result is a heat map of all the
 paths.
+
 The main problems we had with the project are:
+
 ● The ability to mark each person with only one point.
 Often, the algorithm finds various points on the same person, resulting in a
 false representation of a path. Instead of marking the path of one person, it
 shows as if a few people walked that same path.
 We tried to minimize this phenomenon by tweaking the parameters of the
 corner detector.
+
 ● Key points “passing” from one person to another.
 The main problem with this algorithm is that when people pass behind one
 another (and this happens a lot in this particular video), they tend to “give”
