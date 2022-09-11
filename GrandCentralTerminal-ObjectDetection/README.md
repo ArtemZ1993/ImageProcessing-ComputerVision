@@ -12,6 +12,7 @@ Project video: Grand Central Station
 them with different colors.
 
 ● To draw the people’s paths.
+
 ● To display a heat map of all the different paths in real time
 
 The video shows hundreds of people walking through a busy central station.
